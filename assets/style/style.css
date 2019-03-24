@@ -1,0 +1,271 @@
+body {
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 18px;
+    line-height: 27px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#index-bg {
+    background-color: #202e12;
+    background-image: url("../images/yosemite.jpg");
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+}
+
+#intro-page {
+    margin: 0 auto;
+}
+
+#about-btn, #portfolio-btn, #contact-btn {
+    margin-bottom: 10%;
+    background-color: white;
+    color: #424927;
+    border-color: #424927;
+}
+
+h1, h4 {
+    padding: 5%;
+    color: white;
+}
+
+h4 {
+    font-style: italic;
+}
+
+#main-content {
+    background-color: rgb(26, 29, 15, .7);
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: white;
+}
+
+.buttons {
+    text-align: center;
+    /* margin: 5px; */
+}
+
+#about-button {
+    text-align: right;
+}
+
+#contact-button {
+    text-align: left;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -45px; /* the bottom margin is the negative value of the footer's height */
+    margin-bottom: 30px;
+}
+
+.footer, .push {
+    height: 45px; /* .push must be the same height as .footer */
+}
+
+
+.about-bg {
+    background-color: #403b31;
+    background-image: url("../images/black-hills-opaque.jpg");
+}
+
+.main-content {
+    margin-bottom: 45px;
+    color: #424927;
+}
+
+#intro-page {
+    margin-top: 50px;
+}
+
+.navbar {
+    margin-top: 1%;
+}
+
+#color {
+    background-color: rgba(247,178,99, .5);
+    color: #424927;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+
+#intro {
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+#about-me {
+    margin-bottom: 20px;
+    /* background-color: rgba(255,224,178, .5);
+    background: linear-gradient(to right, 
+    rgba(255,224,178,0) 0%, 
+    rgba(255,224,178,.5) 15%, 
+    /* rgba(255,224,178,1) 25%, 
+    rgba(255,224,178,1) 25%, 
+    rgba(255,224,178,1) 35%, 
+    rgba(255,224,178,1) 35%, 
+    rgba(255,224,178,1) 50%, 
+    rgba(255,224,178,1) 65%, 
+    rgba(255,224,178,1) 65%, 
+    rgba(255,224,178,1) 75%, 
+    rgba(255,224,178,1) 75%,
+    rgba(255,224,178,.5) 85%, 
+    rgba(255,224,178,0) 100%);
+} */
+    
+    
+    /* rgba(247,178,99, .5); --> gold */
+    
+    /* rgba(165,145,123, .5) --> rosy brown color */
+}
+
+#bio-info {
+    text-emphasis-style: strong;
+}
+
+#attribute {
+    text-align: right;
+    font-style: normal;
+}
+
+#enter-button {
+    margin-bottom: 10%;
+    background-color: white;
+    color: #424927;
+    border-color: #424927;
+}
+
+/* .footer-margin {
+    height: 100px;
+} */
+
+#about-me {
+    margin-top: 1%;
+}
+
+#bio-image {
+    max-width: 200px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+p {
+    display: block;
+}
+
+.footer {
+    height: 45px;
+    background-color: rgba(247,178,99, .5);
+    color: #424927;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        background-size: auto;
+    }
+    .wrapper {
+        height: 100%;
+        padding: 20px;
+    }
+
+    .about-me {
+        margin-bottom: 40px;
+        text-align: justify;
+    }
+
+    #bio-image {
+        float: none;
+        display: block;
+        margin: 0 auto; 
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    
+    body {
+        background-size: auto;
+    }
+
+    #intro {
+        background-color: rgba(32,46,18,.7);
+    }
+
+    .wrapper {
+        height: 100%;
+        padding: 20px;
+    }
+
+    .about-me {
+        margin-bottom: 40px;
+        text-align: justify;
+    }
+
+    #bio-image {
+        float: none;
+        display: block;
+        margin: 0 auto; 
+    }
+
+
+}
+
+@media screen and (max-width: 168px) {
+    
+    body {
+        background-size: auto;
+    }
+
+    #intro {
+        background-color: #202e12;
+    }
+
+    .wrapper {
+        height: 100%;
+        padding: 20px;
+    }
+
+    .about-me {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    #bio-image {
+        float: none;
+        display: block;
+        margin: 0 auto; 
+    }
+
+}
+@media screen and (max-width: 550px) {
+    
+    #index-bg {
+        top: 0%;
+        transform: none;
+    }
+    #about-button, #contact-button {
+        text-align: center;
+    }
+}
